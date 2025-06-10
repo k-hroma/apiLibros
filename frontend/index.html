@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <form action="submit" id="subNewBook">
+    <label for="titleIn">Title</label>
+    <input type="text" name="title" id="titleIn" autocomplete="off">
+    <label for="isbnIn">ISBN</label>
+    <input type="text" name="isbn" id="isbnIn" autocomplete="off">
+    <button id="btnSend">Create Book</button>
+  </form>
+  <br>
+  <form action="submit" id="subUser">
+    <label for="username">Name</label>
+    <input type="text" name="username" id="username" autocomplete="off">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" autocomplete="off">
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass" autocomplete="off">
+    <button>Create User</button>
+  </form>
+  <br>
+  <form action="submit" id="subLogin">
+    <label for="userLog">User</label>
+    <input type="text" id="userLog" name="userLog" autocomplete="off">
+    <label for="passwordLog">Pass</label>
+    <input type="text" name="password" id="passwordLog" autocomplete="off">
+    <button>Log In</button>
+  </form>
+  <br>
+  <form action="submit" id="getallUsers">
+    <button>Get all</button>
+  </form>
+  <div class="grid-container" id="gridContainer">
+
+  </div>
+<script src="main.js" type="module"></script>  
+</body>
+</html>
